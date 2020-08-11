@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zitat floaten</title>
+  <style>
+    html {
+      font-size: 120%;
+    }
+
+    body {
+      font-family: sans-serif;
+      line-height: 1.3;
+      color: #322f91;
+      background-color: #a6d2df;
+    }
+
+    .zitat {
+      float: left;
+      /* ohne width umbricht der Text nicht */
+      width: 15rem;
+      background-color: #c4f5f4;
+      font-weight: bold;
+      padding: 1rem;
+      margin: 0 1rem 0.5rem 0;
+    }
+    .rechts {
+      float: right;
+      margin-left: 1rem;
+    }
+    article > p {
+      /* border: 5px dotted red; */
+    }
+  </style>
+</head>
+<body>
+  <article>
+    <blockquote class="zitat">
+      <p>Row, Row, Row Your Boat, Gently down the stream. </p>
+    </blockquote>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+      takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+      et ea rebum.</p>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+      takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+      et ea rebum.</p>
+    <blockquote class="zitat rechts">
+      <p>Merrily, merrily, merrily, merrily, Life is but a dream. </p>
+    </blockquote>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+      takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+      et ea rebum.</p>
+
+</body>
+</html>

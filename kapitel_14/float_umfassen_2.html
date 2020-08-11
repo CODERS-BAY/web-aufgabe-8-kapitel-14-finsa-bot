@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Float</title>
+  <style>
+    html {
+      font-size: 120%;
+    }
+
+    body {
+      font-family: sans-serif;
+      line-height: 1.3;
+      color: #322f91;
+      background-color: #a6d2df;
+    }
+
+    p {
+      border: 3px solid #f43a12;
+      background-color: #b6e6ad;
+    }
+
+    .bildlinks {
+      float: left;
+      margin-right: 1rem;
+    }
+
+    .cf::after {
+      content: " ";
+      display: block;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <p class="cf">
+    <img src="bilder/landschaft.jpg" alt="Küstenlandschaft" class="bildlinks"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+  </p>
+</body>
+</html>

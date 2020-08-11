@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>position</title>
+  <style>
+    body {
+      background: #fff;
+      font: 150%/1.4 sans-serif;
+      color: #555;
+    }
+
+    .beschriftung {
+      position: relative;
+      width: 400px;
+    }
+
+    .beschriftung img {
+      display: block;
+    }
+
+    .beschriftung figcaption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      height: 2.5em;
+      line-height: 2.5em;
+      border-top: 1px solid #999;
+      border-bottom: 1px solid #999;
+      background-color: rgba(40, 40, 40, 0.7);
+    }
+  </style>
+</head>
+
+<body>
+  <figure class="beschriftung">
+    <img src="bilder/strandkoerbe.jpg" alt="Strandkörbe" width="400" height="300">
+    <figcaption>Nachmittag an der Nordsee</span>
+  </figure>
+</body>
+</html>
